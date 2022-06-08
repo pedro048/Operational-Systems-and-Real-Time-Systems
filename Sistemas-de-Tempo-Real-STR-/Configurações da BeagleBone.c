@@ -1,10 +1,6 @@
-# Sistemas-de-Tempo-Real-STR-
+Configurações da BeagleBone:
 
-Apresentação do jogo Gennius com a BeagleBone Black: https://youtu.be/zJTw2gjNVhs
-
-# Configurações da BeagleBone:
-
-# SEGURANÇA:
+SEGURANÇA:
 
 - Desligar placa pela linha de comando:
 
@@ -19,7 +15,7 @@ Apresentação do jogo Gennius com a BeagleBone Black: https://youtu.be/zJTw2gjN
 	VDD_ADC: pino P9_32
 	GND_ADC: pino P9_34
 
-# ACESSANDO A BEAGLEBONE:
+ACESSANDO A BEAGLEBONE:
 
 	$ ssh debian@192.168.7.2
 	senha: temppwd
@@ -43,7 +39,7 @@ Apresentação do jogo Gennius com a BeagleBone Black: https://youtu.be/zJTw2gjN
 
 	O seguinte texto é exibido: ‘Este é o seu main, implemente-o'
 
-# ENVIANDO PROGRAMAS PARA A BEAGLE:
+ENVIANDO PROGRAMAS PARA A BEAGLE:
 
 - Instalação do compilador (na sua máquina):
 
@@ -61,15 +57,12 @@ Apresentação do jogo Gennius com a BeagleBone Black: https://youtu.be/zJTw2gjN
 
 	$ scp main debian@192.168.7.2:/home/debian/
 
-# COMPILANDO NA BEAGLE:
+COMPILANDO NA BEAGLE:
 
 - cd beagleBone-Modificada-master
 - make clean
 - make
-- sudo ./main
-
-
-
+-sudo ./main
 
 
 
